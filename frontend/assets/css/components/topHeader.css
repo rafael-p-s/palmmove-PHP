@@ -1,0 +1,49 @@
+
+.testeHeader {
+    /* background-color: red; */
+    border: 2px 1px 1px 0px black solid;
+    border-radius: 15px;
+    box-shadow: 2px 2px 3px slateblue;
+    width: 99vw;
+    margin-left: 0.25%;
+    margin-top: 0.5%;
+    display: flex;
+  }
+  .logoHeader {
+    background-color: white;
+    margin: 1rem;
+    width: 35vw;
+    height: 18vh;
+    border-radius: 25px;
+  }
+  .div_topHeader_buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: yellow; */
+    width: 50vw;
+  }
+  .d_tH_btns {
+    width: 5vw !important;
+    height: 4vh;
+    box-shadow: 4px 4px 4px 0px purple;
+    margin: 2%;
+    cursor: pointer;
+  }
+  span {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+  }
+  .div_tH_login {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    /* background-color: yellow; */
+    cursor: pointer;
+  }
+  .span_cadastrar {
+    color: aquamarine;
+    margin-left: 23%;
+    margin-top: -13%;
+  }

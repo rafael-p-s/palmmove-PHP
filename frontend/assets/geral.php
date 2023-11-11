@@ -5,8 +5,7 @@ header("Content-type: text/css");
 // Lista de arquivos CSS que você deseja combinar
 $cssFiles = array(
     "./css/geral.css",
-    "./css/home/home.css",
-    "./css/admin/admin.css"
+    "./css/components/topHeader.css",
 );
 
 // Inicialize uma variável para armazenar o conteúdo CSS combinado

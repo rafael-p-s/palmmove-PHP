@@ -1,0 +1,18 @@
+.testeHeader {
+    background-color: red;
+    border: 2px black solid;
+    border-radius: 15px;
+    box-shadow: 10px;
+    width: 99vw;
+    margin-left: 0.25%;
+    margin-top: 0.25%;
+    display: flex;
+  }
+  .logoHeader {
+    background-color: white;
+    margin: 1rem;
+    width: 35vw;
+    height: 18vh;
+    border-radius: 25px;
+  }
+  
