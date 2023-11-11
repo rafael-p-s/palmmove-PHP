@@ -1,0 +1,14 @@
+.testeHeader {
+  background-color: red;
+  border: 2px black solid;
+  border-radius: 15px;
+  box-shadow: 10px;
+  width: 99vw;
+  margin-left: 0.25%;
+  margin-top: 0.25%;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
