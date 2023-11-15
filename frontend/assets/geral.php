@@ -6,6 +6,8 @@ header("Content-type: text/css");
 $cssFiles = array(
     "./css/geral.css",
     "./css/components/topHeader.css",
+    "./css/admin/admin.css",
+    "./css/users/users-xulia.css"
 );
 
 // Inicialize uma variável para armazenar o conteúdo CSS combinado

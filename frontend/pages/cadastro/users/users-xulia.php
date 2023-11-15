@@ -15,7 +15,7 @@ require("../../components/topHeader.php")
     <?php
     echo $topHeader;
     ?>
-    <!-- <section class="section_admin_perfil">
+    <section class="section_admin_perfil">
         <div class="admin">
             <div class="image-user">
                 <img src="" alt="">
@@ -26,7 +26,7 @@ require("../../components/topHeader.php")
             <button><p>Trocar imagem</p></button>
             <button><p>Trocar e-mail</p></button>
         </div>
-    </section> -->
+    </section>
     
 </body>
 
