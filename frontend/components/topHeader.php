@@ -16,7 +16,7 @@ $topHeader = $topHeader .
             </button>
         </div>
         <div class="div_tH_login">
-            <img  src="./frontend/img/User.png" alt="Login">
+            <img src="<?php echo $imgUser ?>" />
             <span class="span_cadastrar">Cadastrar</span>
         </div>
     </div>
