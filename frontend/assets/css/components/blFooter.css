@@ -1,0 +1,12 @@
+/* FOOTER */
+footer{
+    background: red;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 2%;
+  }
+  .div_footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

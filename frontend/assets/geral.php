@@ -6,6 +6,7 @@ header("Content-type: text/css");
 $cssFiles = array(
     "./css/geral.css",
     "./css/components/topHeader.css",
+    "./css/components/blFooter.css",
 );
 
 // Inicialize uma variável para armazenar o conteúdo CSS combinado

@@ -1,5 +1,6 @@
 <?php
 require('../../components/topHeader.php');
+require('../../components/blFooter.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -16,6 +17,11 @@ require('../../components/topHeader.php');
     <?php
     echo $topHeader;
     ?>
+    <footer>
+        <?php
+        echo $blFooter;
+        ?>
+    </footer>
 </body>
 
 </html>
