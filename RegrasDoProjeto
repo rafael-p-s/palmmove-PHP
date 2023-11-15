@@ -1,0 +1,18 @@
+Regras do Projeto:
+
+1°: Não subir nenhum arquivo para MASTER;
+
+2°: Caso dê algum conflito em qualquer pagina, perguntar primeiro antes de fazer modificações;
+
+3°: Caso tenha alguma duvida referente aos códigos, perguntar primeiro antes de fazer algo que possa dar problemas;
+
+4°: Para o nome das variáveis, div_local_função, exemplo:
+        <div class="div_tH_login">
+            <img  src="./frontend/img/User.png" alt="Login">
+            <span class="tH_span_cadastrar">Cadastrar</span>
+        </div>
+Esse "div_th_login", div por ser uma div, tH de topHeader, login para saber sobre que esta sendo modificado.
+No caso do <span> irá ficar: "tH_span_cadastrar", sendo tH o local, span se tratando do tipo, cadastrar para se saber que irá fazer.
+
+5°: Arquivos de CSS, SCRIPT e outros, sempre recebendo o nome da área que irá fazer parte. Exemplo:
+topHeader.php e sua variavel principal $topHeader, topHeader.css <<< tudo para depois saber de onde está sendo puxado e quem tem que ser importado para esse arquivo.
