@@ -1,18 +1,83 @@
-.testeHeader {
-    background-color: red;
-    border: 2px black solid;
-    border-radius: 15px;
-    box-shadow: 10px;
-    width: 99vw;
-    margin-left: 0.25%;
-    margin-top: 0.25%;
-    display: flex;
-  }
-  .logoHeader {
-    background-color: white;
-    margin: 1rem;
-    width: 35vw;
-    height: 18vh;
-    border-radius: 25px;
-  }
+.section_login{
+  display: flex;
+  justify-content: center;
+}
+
+.borda-users{
+  width: 60vw;
+  height: 90vw;
+  flex-shrink: 0;
+  text-align: center;
+  justify-items: center;
+  border-radius: 50px;
+  background: rgba(0, 0, 0, 0.41);
+  margin: 8%;
+}
+
+.img-users{
+  width: 150px;
+  height: 150px;
+  flex-shrink: 0;
+  border-radius: 361px;
+  background: rgba(217, 217, 217, 0.21);
+  margin: 10% auto 0 auto;
+}
+
+.email{
+  width: 19vw;
+  height: 2vh;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 15px;
+  margin: 10%;
+  margin-left: 7%;
   
+}
+.email h1{
+  margin-right: 20%;
+}
+.email input{
+    margin-top: 8%;
+}
+ 
+.senha{
+  width: 19vw;
+  height: 2vh;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 15px;
+  margin: 10%;
+  margin-left: 7%;
+}
+
+.senha h1{
+  margin-right: 20%;
+}
+.senha input{
+    margin-top: 8%;
+} 
+
+.borde-email-senha{
+   /* borda para o usuario digitar*/
+  width: 40vw;
+  height: 6vh;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: #D9D9D9;
+  justify-items: center;
+  border: 2 solid black;
+  box-shadow: 3px black;
+  margin-left: 25% ;
+  color: black;
+  margin-bottom: 5%;
+  padding-left: 1rem;
+}
+
+.butao-entrada{
+  width: 416px;
+  height: 130px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: #2989CE;
+  box-shadow: 20px 20px 25px 0px rgba(0, 0, 0, 0.25);
+}
