@@ -66,9 +66,10 @@ section{
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 3.5%;
 }
 .input_busca{
-  width: 40vw;
+  width: 35vw;
   height: 4vh;
   border: 2 solid black;
   box-shadow: 3px black;
