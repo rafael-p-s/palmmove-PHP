@@ -15,7 +15,7 @@ require('../../components/topHeader.php');
 
 <body>
     <?php
-    echo $topHeader;
+        echo $topHeader;
     ?>
 </body>
 
