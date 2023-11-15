@@ -5,19 +5,24 @@ $topHeader = $topHeader .
     <div class="testeHeader">
         <div class="logoHeader"></div>
         <div class="div_topHeader_buttons">
-            <button class="d_tH_btns">
+            <button class="div_tH_btns">
                 <span>Filmes</span>
             </button>
-            <button class="d_tH_btns">
+            <button class="div_tH_btns">
                 <span>Series</span>
             </button>
-            <button class="d_tH_btns">
+            <button class="div_tH_btns">
                 <span>Animes</span>
             </button>
         </div>
         <div class="div_tH_login">
+<<<<<<< HEAD
+            <img  src="./frontend/img/User.png" alt="Login">
+            <span class="tH_span_cadastrar">Cadastrar</span>
+=======
             <img src="<?php echo $imgUser ?>" />
             <span class="span_cadastrar">Cadastrar</span>
+>>>>>>> 2a79c6399567e9aced79a197efb5c14e501230f9
         </div>
     </div>
 ';
