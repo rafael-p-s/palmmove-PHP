@@ -1,6 +1,5 @@
 <?php
 require('../../components/topHeader.php');
-$imgUser = '../img/user.jpg';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -15,7 +14,7 @@ $imgUser = '../img/user.jpg';
 
 <body>
     <?php
-        echo $topHeader;
+    echo $topHeader;
     ?>
 </body>
 
