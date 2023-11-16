@@ -30,11 +30,13 @@ require('../../../components/topHeader.php');
                 <h1>Senha</h1>
                 <input class="borde-email-senha" type="password">
             </div>
-            <div class="buton-entrada">
-                <button>
-                    entrada
-                </button>
+
+            <div class="button-entrada">
             </div>
+            <div class="buton-esqueci-senha">
+                <h1> Esqueci a Senha</h1>
+            </div>
+
         </div>
     </section>
 </body>
