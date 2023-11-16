@@ -32,9 +32,11 @@ require('../../../components/topHeader.php');
             </div>
 
             <div class="button-entrada">
+                <p> Entrada</p>
             </div>
-            <div class="buton-esqueci-senha">
-                <h1> Esqueci a Senha</h1>
+
+            <div>
+                <p class="button-esquici-senha"> Esqueceu a Senha? </p>
             </div>
 
         </div>
