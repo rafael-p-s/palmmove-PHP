@@ -7,111 +7,114 @@
 body {
   background: linear-gradient(to left, rgb(47, 6, 82), rgb(20, 20, 88));
 }
-/* HEADER */
-.testeHeader {
-  /* background-color: red; */
-  border: 2px 1px 1px 0px black solid;
-  border-radius: 15px;
-  box-shadow: 2px 2px 3px slateblue;
-  width: 99vw;
-  margin-left: 0.25%;
-  margin-top: 0.5%;
-  display: flex;
-}
-.logoHeader {
-  background-color: white;
-  margin: 1rem;
-  width: 35vw;
-  height: 18vh;
-  border-radius: 25px;
-}
-.div_topHeader_buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* background-color: red; */
-  width: 40vw;
-}
-.div_tH_btns {
-  width: 5vw !important;
-  height: 4vh;
-  box-shadow: 4px 4px 4px 0px purple;
-  margin: 2%;
-  cursor: pointer;
-}
-span {
-  color: black;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 11px;
-}
-.div_tH_login {
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  /* background-color: yellow; */
-  cursor: pointer;
-  width: 25vw;
-}
-.imgUser {
-  height: 20vh;
-}
-.span_cadastrar {
-  color: aquamarine;
-  margin-left: 23%;
-  margin-top: 1%;
-  margin-bottom: 10px;
-}
+/* GERAL */
 
-/* SECTION */
-section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 3.5%;
+/* HEADER */
+.section_grid_main {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 2fr 1fr;
+  border: 2px solid rgb(77, 29, 77);
+  box-shadow: 3px 3px 10px slateblue;
 }
-.input_busca {
-  width: 35vw;
-  height: 4vh;
-  border: 2 solid black;
-  box-shadow: 3px black;
+.header_grid_logo {
+  display: flex;
+  justify-content: center;
+}
+.header_grid_logo img {
+  height: 15vh;
+}
+.header_grid_btns {
+  display: flex;
+  justify-content: center;
+}
+.d_tH_btns {
+  box-shadow: 4px 4px 4px 0px purple;
+  height: 5vh;
+  width: 15vh;
+  margin: 10% 2% 2% 2%;
+  cursor: pointer;
+}
+.d_tH_btns span {
+  color: black;
+}
+.header_grid_user {
+}
+.header_grid_user img {
+  height: 10vh;
+}
+/* HEADER */
+
+/* MIDDLE */
+.grid_section {
+  width: 80vw;
+  margin-left: 10%;
+  display: grid;
+  grid-template-rows: 40px;
+  grid-template-columns: 1fr 6.4fr;
+  grid-template-areas:
+    "logo nameM nameM"
+    "logo descricao descricao"
+    "logo descricao descricao"
+    "playM playM playM";
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(214, 209, 209, 0.2);
+  margin-top: 1%;
+  border-radius: 10px;
+}
+.item-1 {
+  grid-area: logo;
+  margin-top: 3%;
+  margin-left: 10%;
+  margin-bottom: 2%;
+  align-self: center;
+  justify-self: center;
+}
+.item-1 img {
+  width: 11vw;
+  height: 33vh;
   border-radius: 15px;
 }
-/* .input_busca {
-  color: black !important;
-  border-bottom-left-radius: 10px;
-  border-top-left-radius: 10px;
-  border: none;
-  height: 4.6vh;
-  /* margin-left: 4%; */
-  padding: 3.5px 3.5px 3.5px 6px;
-  width: 20vw;
+.item-2 {
+  grid-area: nameM;
+  /* align-self: center; */
+  /* justify-self: center; */
+  margin-left: 15vw;
+  margin-top: 5.5%;
+  width: 15vw;
+  border-radius: 15px;
+  /* background-color: pink; */
+  width: 50vw;
 }
-.section_btn_pesquisar {
-  /* background-color: white; */
-  border-bottom-right-radius: 10px;
-  border-left: none;
-  border-top-right-radius: 10px;
-  border: none;
-  cursor: pointer;
-  height: 5.7vh;
-  /* margin-left: -1%; */
-  width: 3vw;
+.item-2 h1 {
+  font-size: 35px;
+  font-style: italic;
+  color: white;
+  padding-left: 5%;
 }
-textarea:focus,
-input:focus,
-select:focus {
-  border: 0 none;
-  box-shadow: 0 0 0 0;
-  outline: 0;
-} */
-/* FOOTER */
-footer {
-  background: red;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+.item-3 {
+  grid-area: descricao;
+  align-self: center;
+  justify-self: center;
+  margin-top: 3%;
 }
-.div_footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.itextarea {
+  resize: none;
 }
+.item-4 {
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 8px;
+  width: 65vw;
+  height: 45vh;
+  margin-left: 18.5%;
+  margin-top: 0.5%;
+}
+.item-4 img{
+  width: 8vw;
+  height: 10vh;
+  margin-top: 13%;
+  margin-left: 45.5%;
+}
+/* MIDDLE */

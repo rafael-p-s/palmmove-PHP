@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="teste.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
-    />
-    <title>Document</title>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="teste.css">
+  <title>Teste</title>
   </head>
 
-  <body>
-    <div class="testeHeader">
-      <div class="logoHeader"></div>
-      <div class="div_topHeader_buttons">
+<body>
+  <header>
+    <section class="section_grid_main">
+      <div class="header_grid_logo" style="cursor: pointer;">
+        <img src="./frontend/img/LogoPalmMove2.png" alt="">
+      </div>
+      <div class="header_grid_btns">
         <button class="d_tH_btns">
           <span>Filmes</span>
         </button>
@@ -25,27 +25,32 @@
           <span>Animes</span>
         </button>
       </div>
-      <div class="div_tH_login">
-        <img class="imgUser" src="./frontend/img/User.png" alt="Login" />
-        <span class="span_cadastrar">Cadastrar</span>
-      </div>
-    </div>
-    <section>
-      <div>
-        <input
-          class="input_busca"
-          type="text"
-          placeholder=" Pesquisar filme/seriado/anime"
-        />
-        <button class="section_btn_pesquisar">
-          <i class="material-symbols-outlined"> search </i>
-        </button>
+      <div class="header_grid_user">
+        <div style="cursor: pointer;">
+          <img src="./frontend/img/User.png" alt="Logo">
+          <a href="">
+            <p style="margin-left: 5%;">Cadastrar</p>
+          </a>
+        </div>
       </div>
     </section>
-    <footer>
-      <div class="div_footer" style="background: blue">One</div>
-      <div class="div_footer" style="background: pink">Two</div>
-      <div class="div_footer" style="background: green">Three</div>
-    </footer>
-  </body>
+    <section class="grid_section">
+      <div class="item-1">
+        <img src="./frontend/img/johnwick4.jpg" alt="">
+      </div>
+      <div class="item-2">
+        <h1>Lord of the Rings: o Retorno do Rei</h1>
+      </div>
+      <div class="item-3">
+        <textarea style="resize: none;" id="dadosDoBanco" rows="8" cols="80" disabled>
+    
+                      </textarea>
+      </div>
+    </section>
+    <div class="item-4">
+      <img src="./frontend/img/play.png" alt="Assista o Filme">
+    </div>
+    </header>
+    </body>
+
 </html>
