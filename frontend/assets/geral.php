@@ -7,6 +7,7 @@ $cssFiles = array(
     "./css/geral.css",
     "./css/components/topHeader.css",
     "./css/cadastro/users/users.css",
+    "./css/Login/login.css",
 );
 
 // Inicialize uma variável para armazenar o conteúdo CSS combinado
