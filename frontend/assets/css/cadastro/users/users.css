@@ -8,15 +8,18 @@
   margin-left: 25%;
   width: 50vw;
   height: 50%;
-  border: 1px solid rgb(255, 255, 255);
-  background-color: rgb(56, 70, 131);
+  /* border: 1px solid rgb(255, 255, 255); */
+  background: rgba(0, 0, 0, 0.41);
   box-shadow: 10px 10px 10px 10px rgba(62, 76, 93, 0.5);
-  border-radius: 10px;
+  border-radius: 50px;
 }
+/* ESCOLHER IMG */
 .div_escolher_img {
   margin-left: 35%;
   margin-top: 3%;
 }
+/* ESCOLHER IMG */
+
 /* NOME */
 .div_nome_user {
   margin-left: 20%;
@@ -26,10 +29,13 @@
   font-size: 20px;
 }
 .div_input_nome {
-  width: 30vw;
-  height: 4.5vh;
+  width: 28vw;
+  height: 1vh;
   border: 1px solid black;
   border-radius: 10px;
+  color: black;
+  margin-top: 2%;
+  padding: 1rem;
 }
 /* NOME */
 
@@ -42,10 +48,13 @@
   font-size: 20px;
 }
 .div_input_email {
-  width: 30vw;
-  height: 4.5vh;
+  width: 28vw;
+  height: 1vh;
   border: 1px solid black;
   border-radius: 10px;
+  color: black;
+  margin-top: 2%;
+  padding: 1rem;
 }
 /* EMAIL */
 
@@ -58,10 +67,13 @@
   font-size: 20px;
 }
 .div_input_senha {
-  width: 30vw;
-  height: 4.5vh;
+  width: 28vw;
+  height: 1vh;
   border: 1px solid black;
   border-radius: 10px;
+  color: black;
+  margin-top: 2%;
+  padding: 1rem;
 }
 /* SENHA */
 
@@ -74,10 +86,13 @@
   font-size: 20px;
 }
 .div_input_confirmar_senha {
-  width: 30vw;
-  height: 4.5vh;
+  width: 28vw;
+  height: 1vh;
   border: 1px solid black;
   border-radius: 10px;
+  color: black;
+  margin-top: 2%;
+  padding: 1rem;
 }
 /* CONFIRMAR SENHA */
 

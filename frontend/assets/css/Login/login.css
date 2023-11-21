@@ -5,7 +5,7 @@
   
   .borda-users {
     width: 30vw;
-    height: 38vw;
+    height: 30%;
     flex-shrink: 0;
     text-align: center;
     justify-items: center;
@@ -73,8 +73,7 @@
     justify-items: center;
     
     /*sombreado*/ 
-    box-shadow: 10px 10px 10px 0 rgb(49, 18, 135);
-    opacity: 0.5px;
+    box-shadow: 10px 10px 10px 0 rgb(49, 18, 135,0.5);
     margin-left: 20%;
     color: black;
     margin-bottom: 5%;
@@ -93,6 +92,7 @@
     justify-content: center;
     align-items: center;
     margin: 1% auto 0 auto;
+    cursor: pointer;
   }
   
   .button-esquici-senha {
@@ -106,4 +106,5 @@
     font-weight: 400;
     line-height: normal;
     margin-top: 5%;
+    cursor: pointer;
 }

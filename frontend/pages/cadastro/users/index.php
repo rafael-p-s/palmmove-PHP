@@ -19,7 +19,7 @@ require('../../../components/topHeader.php');
     ?>
     <section class="section_main">
         <div class="div_escolher_img">
-            <input style="width:20vw;" type="file" id="imagempizza" onchange="converterimagem()">
+            <input style="width:20vw; margin-top:10%;" type="file" id="imagempizza" onchange="converterimagem()">
         </div>
         <div class="div_nome_user">
             <h3>Nome:</h3>
@@ -35,7 +35,7 @@ require('../../../components/topHeader.php');
         </div>
         <div class="div_senha_confirmar_user">
             <h3>Confirmar Senha:</h3>
-            <input type="text" class="div_input_confirmar_senha">
+            <input type="password" class="div_input_confirmar_senha">
         </div>
         <div class="div_buttons">
             <div class="btn_cadastro">
