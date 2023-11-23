@@ -1,0 +1,157 @@
+.section_main {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    margin-top: 2%;
+    margin-left: 25%;
+    width: 50vw;
+    height: 50%;
+    /* border: 1px solid rgb(255, 255, 255); */
+    background: rgba(0, 0, 0, 0.41);
+    box-shadow: 10px 10px 10px 10px rgba(62, 76, 93, 0.5);
+    border-radius: 50px;
+}
+
+.image-adm
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 358px;
+    background: rgba(217, 217, 217, 1);
+    margin: 5% auto 0 auto;
+}
+.section_de_verificao_e_cadastro
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section_de_verificao_e_cadastro h1{
+    font-size: 26px;
+    text-align: center;
+    margin-top: 2vw;
+}
+.section_de_verificao_e_cadastro button{
+    width: 15vw;
+    height: 8vh;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 10px 10px 10px 0 black;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 5%;
+    margin-bottom: 5%; 
+    cursor: pointer;
+    max-height: 2%;
+}
+
+p{
+    color: black;
+    font-size: 22px;
+    text-align: center;
+}
+.admin{
+    width: 60vw;
+}
+/*ADM*/
+/* ESCOLHER IMG */
+.div_escolher_img {
+  margin-left: 35%;
+  margin-top: 3%;
+}
+/* ESCOLHER IMG */
+
+/* NOME DO FILME */
+.div_nome_do_filme{
+  margin-left: 20%;
+  margin-top: 3%;
+}
+.div_nome_do_filme h3{
+  font-size: 20px;
+}
+.div_input_nome_do_filme{
+  width: 28vw;
+  height: 1vh;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: black;
+  margin-top: 2%;
+  padding: 1rem;
+}
+/* NOME  DO FILME*/
+
+/* DURAÇÂO */
+.div_duracao {
+  margin-left: 20%;
+  margin-top: 3%;
+}
+.div_duracao h3 {
+  font-size: 20px;
+}
+.div_input_duracao {
+  width: 28vw;
+  height: 1vh;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: black;
+  margin-top: 2%;
+  padding: 1rem;
+}
+/*DURAÇÃO*/
+
+/* LINK API */
+.div_link_api{
+  margin-left: 20%;
+  margin-top: 3%;
+}
+.div_link_api h3 {
+  font-size: 20px;
+}
+.div_input_link_api{
+  width: 28vw;
+  height: 1vh;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: black;
+  margin-top: 2%;
+  padding: 1rem;
+}
+/* LINK API */
+
+/* BUTTONS */
+.div_buttons {
+  width: 10.3vw;
+  margin-top: 2%;
+  margin-left: 40%;
+}
+.btn_cadastro button {
+  background-color: green;
+  margin-bottom: 5%;
+  margin-left: 1.4%;
+  width: 10vw;
+  height: 5vh;
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn_cancelar button {
+  background-color: red;
+  margin-bottom: 6%;
+  margin-left: 11%;
+  width: 8vw;
+  height: 4vh;
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn_cadastro span,.btn_cancelar span{
+  font-size: 18px;
+  color:whitesmoke
+}
+/* BUTTONS */
