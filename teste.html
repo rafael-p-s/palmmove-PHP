@@ -8,38 +8,48 @@
   </head>
 
   <body>
+    
+    <section class="section_de_verificao_e_cadastro">
+      <div class="admin">
+          <div class="image-adm">
+              <img src="" alt="">
+          </div>
+          <h1>Nome do usuário</h1>
+          <button><p>Verificar Usuario</p></button>
+          <button><p>Lista de Filmes</p></button>
+          <button><p>Cadastrar Filme</p></button>
+</section>
 
-    <section class="section_login">
-      <div class="borda-users">
-        <div class="escolher-img">
-          <p>Ecolher imagem..</p>
+ <section class="section_main">
+        <div class="div_escolher_img">
+            <input style="width:20vw; margin-top:10%;" type="file" id="imagempizza" onchange="converterimagem()">
         </div>
-        <div class="name-user">
-          <h1>Nome de Usuario:</h1>
-          <input type="text" class="borde-name-users" />
+        <div class="div_nome_do_filme">
+            <h3>Nome do Filme:</h3>
+            <input type="text" class="div_input_nome_do_filme">
         </div>
-        <div class="email">
-          <h1>E-mail:</h1>
-          <input class="borde-email" type="text" />
+        <div class="div_duracao">
+            <h3>Duração:</h3>
+            <input type="text" class="div_input_duracao">
         </div>
-        <div class="senha">
-          <h1>Senha:</h1>
-          <input class="borde-senha" type="password" />
+        <div class="div_link_api">
+            <h3>Link API:</h3>
+            <input type="text" class="div_input_link_api">
         </div>
-
-        <div class="retry-senha">
-          <h1>Repetir Senha:</h1>
-          <input class="borde-retry-senha" type="password" />
+        
         </div>
-
-        <div class="button-cadastrar">
-          <p>Cadastrar</p>
+        <div class="div_buttons">
+            <div class="btn_cadastro">
+                <button>
+                    <span>Cadastrar</span>
+                </button>
+            </div>
+            <div class="btn_cancelar">
+            <button >
+                <span>Cancelar</span>
+            </button>
+            </div>
         </div>
-
-        <div class="button-cancelar">
-          <p>Cancelar</p>
-        </div>
-      </div>
     </section>
   </body>
 </html>

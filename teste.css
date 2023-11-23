@@ -8,211 +8,163 @@ body {
   background: linear-gradient(to left, rgb(47, 6, 82), rgb(20, 20, 88));
 }
 /* ============================================== */
-
-.section_login {
-  display: flex;
-  justify-content: center;
+.image-adm
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 358px;
+    background: rgba(217, 217, 217, 1);
+    margin: 5% auto 0 auto;
+}
+.section_de_verificao_e_cadastro
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section_de_verificao_e_cadastro h1 
+{
+    font-size: 26px;
+    text-align: center;
+    margin-top: 2vw;
+}
+.section_de_verificao_e_cadastro button
+{
+    width: 15vw;
+    height: 8vh;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 10px 10px 10px 0 black;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 5%;
+    margin-bottom: 5%; 
+    cursor: pointer;
+    max-height: 2%;
+}
+p
+{
+    color: black;
+    font-size: 22px;
+    text-align: center;
+}
+.admin
+{
+    width: 60vw;
 }
 
-.borda-users {
-  width: 32vw !important;
-  height: 52vw !important;
-  border-radius: 50px;
-  background: rgba(0, 0, 0, 0.41);
-  margin: 1.8%;
-}
-
-.escolher-img {
-  width: 18vw;
-  height: 5vh;
-  border-radius: 35px;
-  background: #fff;
-  box-shadow: 20px 20px 25px 0px rgba(0, 0, 0, 0.25);
-  display: flex;
-  justify-content: center;
+/*ADM*/
+.section_main {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  /* display: flex;
   align-items: center;
-  margin-top: 10%;
-  margin-left: 22%;
-  margin-bottom: 5%;
-}
-.escolher-img p {
-  color: #000;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
-.name-user {
-  width: 16vw;
-  height: 8vh;
-  color: #fff;
-  margin-left: 10%;
-  margin-bottom: 5%;
-}
-.name-user h1 {
-  margin-right: 26%;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  font-weight: 400px;
-}
-
-.borde-name-users {
+  justify-content: center; */
   margin-top: 2%;
+  margin-left: 25%;
+  width: 50vw;
+  height: 50%;
+  /* border: 1px solid rgb(255, 255, 255); */
+  background: rgba(0, 0, 0, 0.41);
+  box-shadow: 10px 10px 10px 10px rgba(62, 76, 93, 0.5);
+  border-radius: 50px;
+}
+/* ESCOLHER IMG */
+.div_escolher_img {
+  margin-left: 35%;
+  margin-top: 3%;
+}
+/* ESCOLHER IMG */
 
-  width: 18vw;
-  height: 6vh;
-  border-radius: 15px;
-  background: #d9d9d9;
-  justify-items: center;
-
-  /*sombreado*/
-  box-shadow: 10px 10px 10px 0 rgb(49, 18, 135, 0.5);
+/* NOME DO FILME */
+.div_nome_do_filme {
   margin-left: 20%;
-  color: black;
-  margin-bottom: 5%;
-  padding-left: 1rem;
+  margin-top: 3%;
 }
-
-.email {
-  width: 16vw;
-  height: 8vh;
-  color: #fff;
-  margin-left: 15%;
-  margin-bottom: 5%;
-}
-
-.email h1 {
-  margin-right: 26%;
-  font-family: Arial, Helvetica, sans-serif;
+.div_nome_do_filme h3 {
   font-size: 20px;
-  font-weight: 400px;
 }
-
-.borde-email {
-  margin-top: 2%;
-
-  width: 18vw;
-  height: 6vh;
-  border-radius: 15px;
-  background: #d9d9d9;
-  justify-items: center;
-
-  /*sombreado*/
-  box-shadow: 10px 10px 10px 0 rgb(49, 18, 135, 0.5);
-  margin-left: 20%;
+.div_input_nome_do_filme {
+  width: 28vw;
+  height: 1vh;
+  border: 1px solid black;
+  border-radius: 10px;
   color: black;
-  margin-bottom: 5%;
-  padding-left: 1rem;
+  margin-top: 2%;
+  padding: 1rem;
 }
+/* NOME  DO FILME*/
 
-.senha {
-  width: 16vw;
-  height: 8vh;
-  color: #fff;
-  margin-left: 10%;
-  margin-bottom: 5%;
+/* DURAÇÂO */
+.div_duracao {
+  margin-left: 20%;
+  margin-top: 3%;
 }
-
-.senha h1 {
-  margin-right: 26%;
-  font-family: Arial, Helvetica, sans-serif;
+.div_duracao h3 {
   font-size: 20px;
-  font-weight: 400px;
 }
-
-.borde-senha {
-  margin-top: 2%;
-
-  width: 18vw;
-  height: 6vh;
-  border-radius: 15px;
-  background: #d9d9d9;
-  justify-items: center;
-
-  /*sombreado*/
-  box-shadow: 10px 10px 10px 0 rgb(49, 18, 135, 0.5);
-  margin-left: 20%;
+.div_input_duracao {
+  width: 28vw;
+  height: 1vh;
+  border: 1px solid black;
+  border-radius: 10px;
   color: black;
-  margin-bottom: 5%;
-  padding-left: 1rem;
+  margin-top: 2%;
+  padding: 1rem;
 }
+/*DURAÇÃO*/
 
-.retry-senha {
-  width: 16vw;
-  height: 2vh;
-  color: #fff;
-  margin: 10%;
-  box-shadow: 3px black;
+/* LINK API */
+.div_link_api{
+  margin-left: 20%;
+  margin-top: 3%;
 }
-.retry-senha h1 {
-  margin-right: 26%;
-  font-family: Arial, Helvetica, sans-serif;
+.div_link_api h3 {
   font-size: 20px;
-  font-weight: 400px;
 }
-
-.borde-retry-senha {
-  margin-top: 2%;
-
-  width: 18vw;
-  height: 6vh;
-  border-radius: 15px;
-  background: #d9d9d9;
-  justify-items: center;
-
-  /*sombreado*/
-  box-shadow: 10px 10px 10px 0 rgb(49, 18, 135);
-  opacity: 0.5px;
-  margin-left: 20%;
+.div_input_link_api{
+  width: 28vw;
+  height: 1vh;
+  border: 1px solid black;
+  border-radius: 10px;
   color: black;
-  margin-bottom: 15%;
-  padding-left: 1rem;
+  margin-top: 2%;
+  padding: 1rem;
 }
+/* LINK API */
 
-.button-cadastrar {
+/* BUTTONS */
+.div_buttons {
+  width: 10.3vw;
+  margin-top: 2%;
+  margin-left: 40%;
+}
+.btn_cadastro button {
+  background-color: green;
+  margin-bottom: 5%;
+  margin-left: 1.4%;
   width: 10vw;
   height: 5vh;
-  border-radius: 25px;
-  background: #29ce58;
-  box-shadow: 20px 20px 25px 0px rgba(0, 0, 0, 0.25);
-  /* margin: 0 auto 0 auto; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 15%;
-  margin-left: 35%;
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
-.button-cadastrar p {
-  color: #000;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+.btn_cancelar button {
+  background-color: red;
+  margin-bottom: 6%;
+  margin-left: 11%;
+  width: 8vw;
+  height: 4vh;
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
-.button-cancelar {
-  width: 7vw;
-  height: 3vh;
-  border-radius: 25px;
-  background: rgb(208, 14, 0);
-  box-shadow: 20px 20px 25px 0px rgba(0, 0, 0, 0.25);
-  /* margin: 0 auto 0 auto; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 40%;
-  margin-top: 5%;
+.btn_cadastro span,.btn_cancelar span{
+  font-size: 18px;
+  color:whitesmoke
 }
-
-.button-cancelar p {
-  color: #000;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
+/* BUTTONS */
